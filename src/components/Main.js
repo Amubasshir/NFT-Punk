@@ -25,7 +25,6 @@ const Main = ({selectedPunk, punkListData}) =>
         <div className='punkDetails' style={{ color: "#ffffff" }}>
           <div className='title'>
             {activePunk.name}
-            {/* <span className='itemNumber'>•#{activePunk.token_id}</span> */}
           </div>
           <div className='owner'>
             <div className='ownerImageContainer'>
